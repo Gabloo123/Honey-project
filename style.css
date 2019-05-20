@@ -1,0 +1,177 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #FBC20B;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: justify;
+}
+.container
+
+{
+	width: 1080px;
+	margin: auto;	
+}
+
+
+
+#bottom
+{
+	background-color: #3A1515;
+	color: #F79a26;
+	text-decoration: none;
+	overflow: hidden;
+	font-size:18px;
+	
+}
+
+.brand-img
+{
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+
+#top-menu
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+#top-menu > li
+{
+	display: inline-block;
+}
+
+#top-menu > li > a
+{
+	display: inline-block;
+	padding: 16px 20px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3A1515;
+	text-decoration: none;
+}
+
+#top-menu > li > a:hover
+{
+	display: inline-block;
+	padding: 16px 20px;
+	background-color: #3A1515;
+	color:#F68915;
+	transition-duration:0.2s;
+}
+
+#top-menu > li > .top-submenu
+{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3A1515;
+	text-decoration: none;
+		transition-duration:1.2s;
+	visibility: hidden;
+	transform: scaleY(0);
+	transform-origin: 50% 0;
+	transition:300ms;
+}
+
+#top-menu > li:hover > .top-submenu
+{
+	display: inline-block;
+	background-color: #F68915;
+	color: #3A1515;
+	transition-duration:0.2s;
+	visibility: visible;
+     transform: scaleY(1);
+}
+
+.top-submenu
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position:  absolute;
+	display: none;
+	background-color: #F68915;
+		
+	
+}
+
+.top-submenu> li > a
+{
+	display: block;
+	padding: 16px 20px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3A1515;
+	text-decoration: none;
+	border-top: solid 1px #3A1515;
+
+}
+
+.top-submenu > li > a:hover
+{
+	background-color: #3A1515;
+	color:#F68915;
+	transition: 0.3s;
+	
+}
+
+.top-submenu > li > a
+{
+	text-decoration: none;
+}
+
+nav
+{
+	background-color: #F79a26;
+}
+
+
+#top-menu li:hover >ul
+{
+	display: block;
+}
+
+#banner
+{
+	background-image: url(miod.jpg);
+	padding: 120px 40px;
+}
+
+#banner h1
+{
+	margin: 0;
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+	background-color:rgba(0,0,0,0.7);
+	padding: 12px;
+	text-shadow: 1px 1px 0px #000;
+}
+
+.footer-box
+{
+	padding: 30px 0;
+	width: 50%;
+	float:left;	
+}
+
+.text-right
+{
+	text-align: right;
+}
+
+#bottom a{
+	color:#fff;
+}
+
+#bottom a:hover
+{
+	color:#F79a26;
+}
